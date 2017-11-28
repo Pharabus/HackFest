@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hackfesttest:
+    image: hackfesttest
+    build:
+      context: ./HackfestTest
+      dockerfile: Dockerfile
